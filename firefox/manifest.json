@@ -1,0 +1,20 @@
+{
+
+    "manifest_version": 1,
+    "name": "Steam market extension",
+    "version": "1.0",
+  
+    "description": "test",
+  
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.mozilla.org/*"],
+        "js": ["steam.js"]
+      }
+    ]
+  
+  }
